@@ -1,5 +1,5 @@
 ---
-name: My Workflow
+name: SC Environment Check 
 
 on:
   push:
@@ -9,4 +9,4 @@ on:
 
 jobs:
   call-reusable-workflow:
-    uses: RedHatInsights/shared-workflows/.github/workflows/sc-environment-impact-check.yml@master
+    uses: SteveHNH/shared-workflows/.github/workflows/sc-environment-impact-check.yml@fix-workflow
