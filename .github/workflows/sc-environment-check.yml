@@ -1,0 +1,12 @@
+---
+name: My Workflow
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  call-reusable-workflow:
+    uses: RedHatInsights/shared-workflows/.github/workflows/sc-environment-impact-check.yml@master
