@@ -15,3 +15,5 @@ permissions:
 jobs:
   call-reusable-workflow:
     uses: RedHatInsights/shared-workflows/.github/workflows/sc-environment-impact-check.yml@master
+    secrets:
+      SC_ASSESSOR_SLACK_URL: ${{ secrets.SC_ASSESSOR_SLACK_URL }}
