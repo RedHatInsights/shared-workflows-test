@@ -12,6 +12,6 @@ jobs:
     permissions:
       pull-requests: write
       contents: read
-    uses: SteveHNH/shared-workflows/.github/workflows/sc-environment-impact-check.yml@denoisify-slack
+    uses: RedHatInsights/shared-workflows/.github/workflows/sc-environment-impact-check.yml@master
     secrets:
       SC_ASSESSOR_SLACK_URL: ${{ secrets.SC_ASSESSOR_SLACK_URL }}
